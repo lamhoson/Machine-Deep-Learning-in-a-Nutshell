@@ -1,1 +1,8 @@
-{"pages":[]}
+{"pages":[{"page":3,"annotations":[{"type":"Link","bounds":[235,1099,200,28],"objref":"35"}]},{"page":7,"annotations":[{"type":"Link","bounds":[404,136,58,28],"objref":"53"},
+{"type":"Link","bounds":[159,164,66,28],"objref":"54"},
+{"type":"Link","bounds":[326,164,93,28],"objref":"56"},
+{"type":"Link","bounds":[226,164,98,28],"objref":"55"},
+{"type":"Link","bounds":[292,136,101,28],"objref":"52"},
+{"type":"Link","bounds":[159,136,132,28],"objref":"51"},
+{"type":"Link","bounds":[159,246,581,28],"objref":"58"},
+{"type":"Link","bounds":[159,219,611,28],"objref":"57"}]}]}
