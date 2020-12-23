@@ -2,3 +2,5 @@ MsWord -> PDF -> IDR HTML5 RichText
 
 
 IDR: https://www.idrsolutions.com/online-pdfform-to-html5-converter
+
+https://lamhoson.github.io/Machine-Deep-Learning-in-a-Nutshell/
