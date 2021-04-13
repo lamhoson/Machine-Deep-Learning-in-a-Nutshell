@@ -62,19 +62,6 @@
     margin: 0 auto 0;
 }
 
-/* Continuous_Horizontal Layout */
-#idrviewer.layout-continuous_horizontal {
-    overflow: hidden;
-
-    /*-webkit-scroll-snap-type: mandatory;*/
-    /*-webkit-scroll-snap-points-x: repeat(100%);*/
-}
-
-.layout-continuous_horizontal .page {
-    display: inline-block;
-    transform: translate3d(0, 0, 0);
-}
-
 /* Magazine Layout */
 .layout-magazine .page {
     visibility: hidden;
@@ -112,6 +99,15 @@
     -webkit-transition-delay: 0.1s, 0s;
     transition-delay: 0.1s, 0s;
 }
+.isR2L.layout-presentation.transition-slide .page.after {
+    -webkit-transform: translateX(-130%);
+    transform: translateX(-130%);
+}
+.isR2L.layout-presentation.transition-slide .page.before {
+    -webkit-transform: translateX(130%);
+    transform: translateX(130%);
+}
+
 
 /* Fade Transition */
 .layout-presentation.transition-fade .page {

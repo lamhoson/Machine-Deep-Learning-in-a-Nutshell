@@ -1,4 +1,4 @@
-/* v1.1.1 */
+/* v1.1.2 */
 (function() {
     "use strict";
 
@@ -190,7 +190,7 @@
             }
         };
 
-        ActionHandler.register(["Link", "Widget"], ["click", "mouseover"], LinkActionHandler);
+        ActionHandler.register(["Link", "Widget", "TextLink"], ["click", "mouseover"], LinkActionHandler);
     })();
 
     (function() {
@@ -213,8 +213,8 @@
             isMobile;
 
         var createPopup = function(data) {
-            if (data["contents"]) {
-                var boundingRect = document.getElementById(data.objref).getBoundingClientRect();
+            if (data["contents"] && data["objref"]) {
+                var boundingRect = document.querySelector("[data-objref='" + data.objref + "']").getBoundingClientRect();
                 var midX = ((boundingRect.right - boundingRect.left) / 2) + boundingRect.left;
                 var bottomY = boundingRect.bottom;
 
@@ -301,7 +301,6 @@
                 newElement.style.height = data.bounds[3] + "px";
                 newElement.title = data.type;
                 newElement.dataset.objref = data.objref;
-                newElement.id = data.objref;
                 for (var i = 0; i < data.richmedia.length; i++) {
                     var src = document.createElement("source");
                     src.setAttribute("src", data.richmedia[i].src);
@@ -324,8 +323,9 @@
             annotation.style.top = data.bounds[1] + "px";
             annotation.style.width = data.bounds[2] + "px";
             annotation.style.height = data.bounds[3] + "px";
-            annotation.dataset.objref = data.objref;
-            annotation.id = data.objref;
+            if (data.objref) {
+                annotation.dataset.objref = data.objref;
+            }
 
             if (data.appearance) {
                 annotation.style.backgroundImage = "url('" + data.appearance + "')";
