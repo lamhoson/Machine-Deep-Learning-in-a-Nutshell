@@ -12,8 +12,17 @@ stroke-width: 1.222;
 stroke-linecap: butt;
 stroke-linejoin: miter;
 }
+.g1_3{
+fill: none;
+stroke: #0000FF;
+stroke-width: 0.611;
+stroke-linecap: butt;
+stroke-linejoin: miter;
+}
 ]]></style>
 </defs>
 <image clip-path="url(#c0_3)" preserveAspectRatio="none" x="343" y="55" width="249" height="258" xlink:href="img/1.jpg"/>
 <path d="M156.6,579.3H349.7" class="g0_3"/>
+<path d="M79.9,735.2H684.1" class="g1_3"/>
+<path d="M79.9,758.4h574" class="g0_3"/>
 </svg>
