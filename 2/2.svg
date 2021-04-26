@@ -3,9 +3,9 @@
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<clipPath id="c0_2"><path d="M680,574.1V550.9h52.9v23.2Z"/></clipPath>
+<clipPath id="c0_2"><path d="M711.8,574.1V550.9h52.7v23.2Z"/></clipPath>
 <clipPath id="c1_2"><path d="M54.8,834.6V802.2h73.7v32.4Z"/></clipPath>
 </defs>
-<image clip-path="url(#c0_2)" preserveAspectRatio="none" x="680" y="551" width="53" height="23" xlink:href="img/1.jpg"/>
+<image clip-path="url(#c0_2)" preserveAspectRatio="none" x="712" y="551" width="52" height="23" xlink:href="img/1.jpg"/>
 <image clip-path="url(#c1_2)" preserveAspectRatio="none" x="55" y="802" width="73" height="32" xlink:href="img/2.jpg"/>
 </svg>

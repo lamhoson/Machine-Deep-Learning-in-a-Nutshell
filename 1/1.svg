@@ -3,7 +3,7 @@
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg viewBox="0 0 935 1210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<clipPath id="c0_1"><path d="M430.7,568.5V536.1h73.6v32.4Z"/></clipPath>
+<clipPath id="c0_1"><path d="M430.7,590.8V558.6h73.6v32.2Z"/></clipPath>
 </defs>
-<image clip-path="url(#c0_1)" preserveAspectRatio="none" x="431" y="536" width="73" height="32" xlink:href="img/1.jpg"/>
+<image clip-path="url(#c0_1)" preserveAspectRatio="none" x="431" y="559" width="73" height="32" xlink:href="img/1.jpg"/>
 </svg>
